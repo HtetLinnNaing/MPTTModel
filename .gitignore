@@ -1,2 +1,4 @@
 /venv/
 /.idea/
+/todoApi/migrations/
+/product/migrations/
