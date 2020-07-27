@@ -37,7 +37,12 @@ def todo_list_change_and_delete(request, pk):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     elif request.method == "DELETE":
         Todo.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response(
+            {
+                "result": "failed",
+                "code": status.HTTP_204_NO_CONTENT,
+                "message": "Error Message"
+            }, status=status.HTTP_204_NO_CONTENT)
 
 
 class TodoListAndCreate(generics.ListCreateAPIView):
