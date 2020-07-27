@@ -13,10 +13,7 @@ Learing Django MpttModel with sqlite db.
 * user `admin`
 * password `admin`
 
-#Rest Framework Api
-Learing django rest_framework api
-
-##function base view test
+##function base view test(rest_framework)
 * GET, POST, PUT, DELETE
 * url `your host:port/api` 
 
