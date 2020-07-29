@@ -26,3 +26,24 @@ Learning django rest_api
 ## ViewSet test
 * GET, POST, PUT, DELETE
 * url `your_host:port/api/viewset/`
+
+# GraphQL 
+ GraphQL api testing 
+ 
+## Test
+* url `your_host:port/graphql`
+
+    ```
+    {
+      tracks{
+        id
+        title
+        description
+        url
+        createdAt
+      }
+    }
+    ```
+
+ 
+ 
