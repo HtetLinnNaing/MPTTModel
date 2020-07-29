@@ -33,7 +33,7 @@ Learning django rest_api
 ## Test
 * url `your_host:port/graphql`
 
-    ```
+    ```bash
     {
       tracks{
         id
