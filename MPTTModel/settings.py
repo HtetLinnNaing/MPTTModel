@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'product.apps.ProductConfig',
     'todoApi.apps.TodoapiConfig',
     'graphQL.apps.GraphqlConfig',
+    'filterAdmin.apps.FilteradminConfig',
     'mptt',
     'graphene_django',
     'rest_framework',
