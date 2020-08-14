@@ -22,11 +22,11 @@ class Category(MPTTModel):
     def __str__(self):
         return self.title
 
-    class MPTTMeta:
-        order_insertion_by = ['title']
+    # class MPTTMeta:
+    #     order_insertion_by = ['title']
 
-    def get_absolute_url(self):
-        return reverse('category_detail', kwargs={'slug': self.slug})
+    # def get_absolute_url(self):
+    #     return reverse('category_detail', kwargs={'slug': self.slug})
 
     def __str__(self):  # __str__ method elaborated later in
         full_path = [self.title]  # post.  use __unicode__ in place of
