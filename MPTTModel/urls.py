@@ -19,7 +19,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', admin.site.urls),
+    path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
+    path('secret/', admin.site.urls),
     path('api/', include('todoApi.urls')),
     path('graphql/', include('graphQL.urls'))
 ]

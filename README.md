@@ -44,6 +44,8 @@ Learning django rest_api
       }
     }
     ```
-
- 
+## Virtual Login Page
+### Learn virtual login page with `django_admin_honeypot`
+ * virtual url `localhost:port\admin\`
+ * secret url `localhost:port\secret\`
  

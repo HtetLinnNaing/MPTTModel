@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'mptt',
     'graphene_django',
     'rest_framework',
+    'admin_honeypot',
 ]
 GRAPHENE = {
     'SCHEMA': 'MPTTModel.schema.schema'
